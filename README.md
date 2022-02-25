@@ -2,13 +2,13 @@
 
 Rspec 상에서 before_type_cast가 정상동작하지 않는 현상을 재현한 RoR 프로젝트 입니다.
 
-###환경
+### 환경
 * ruby 3.1.0
 * rails 7.0.2
 * sqlite3 1.4
 * rspec 4.0
 
-###재현 시나리오
+### 재현 시나리오
 * Rspec에서 연관관계 매핑을 통해 객체 리스트를 가져온다 `chocolates = box.chocolates`
 * 메소드를 이용해 단일 객체에 접근한 후 before_type_cast 메소드를 호출한다 => 정상동작
 ```ruby
