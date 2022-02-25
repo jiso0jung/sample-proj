@@ -59,4 +59,4 @@ p chocolate[0].flavor_before_type_cast
 * 환경에 따라 재현되지 않을수도 있다. (이 프로젝트에서도 원래 재현 안됐었는데 모델 이름과 enum 키/밸류값만 바꿔서 다시 만들었더니 재현됨)
 
 ### 코드 재현 파일 경로
-* `spec/model/chocolates_spec.rb` 
+* `spec/models/chocolate_spec.rb` 
