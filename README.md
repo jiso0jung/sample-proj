@@ -1,6 +1,6 @@
 # README
 
-Rspec 상에서 before_type_cast가 정상동작하지 않는 현상을 재현한 RoR 프로젝트 입니다.
+Rspec 상에서 before_type_cast가 정상동작하지 않는 현상을 재현한 RoR 프로젝트 입니다. [이슈 링크](https://github.com/rails/rails/issues/44549)
 
 ### 환경
 * ruby 3.1.0
